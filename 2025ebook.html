@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <title>用閱讀打造自己的路：博客來X皇冠電子書優惠中！</title>
@@ -153,7 +153,22 @@ body, pre {
   text-justify:inter-ideograph;
 }
 .word h1 { font-size:26px; margin:0; padding:0; }
-.word .pic { float:right; margin:0 0 20px 20px; }
+.word .pic { float:right; margin:0 0 0 0; }
+.two-col {
+  display: flex;
+  justify-content: center; /* 置中對齊 */
+  gap: 0;                  /* 取消間距，避免超出 */
+  margin: 0;               /* 取消外邊距 */
+  padding: 0;              /* 取消內邊距 */
+}
+
+.two-col img {
+  width: 50%;   /* 每張圖 50%，剛好兩張並排 */
+  height: auto;
+  display: block; /* 避免 inline-block 的額外空白 */
+}
+
+
 pre {
   margin-top:0;
   word-wrap: break-word;
@@ -171,11 +186,18 @@ body,td,th { font-family:"微軟正黑體","Microsoft JhengHei","新細明體",P
   <tr><td><img src="images/2025ebook_04.jpg" width="980" height="171" /></td></tr>
   <tr><td><img src="images/2025ebook_05.jpg" width="980" height="229" /></td></tr>
   <tr><td><img src="images/2025ebook_06.jpg" width="980" height="158" /></td></tr>
-  <tr><td><img src="images/2025ebook_07.jpg" width="980" height="538" /></td></tr>
+  <tr>
+  <td>
+    <div class="two-col">
+      <img src="images/2025ebook_07.jpg" alt="ebook_07">
+      <img src="images/2025ebook_08.jpg" alt="ebook_08">
+    </div>
+  </td>
+</tr>
 
 <!-- 年度暢銷經典 -->
 
-  <tr><td><img src="images/2025ebook_08.jpg" width="980" height="159" /></td></tr>
+  <tr><td><img src="images/2025ebook_09.jpg" width="980" height="159" /></td></tr>
 
   <tr>
     <td>
@@ -266,7 +288,7 @@ body,td,th { font-family:"微軟正黑體","Microsoft JhengHei","新細明體",P
  <!-- 9月新書震撼登場 -->
 
   <tr>
-    <td><img src="images/2025ebook_09.jpg" width="980" height="154" /></td>
+    <td><img src="images/2025ebook_10.jpg" width="980" height="154" /></td>
   </tr>
 
   <tr>
@@ -323,7 +345,7 @@ body,td,th { font-family:"微軟正黑體","Microsoft JhengHei","新細明體",P
   <!-- 細讀人心的幽暗角落 -->
 
   <tr>
-    <td><img src="images/2025ebook_10.jpg" width="980" height="158" /></td>
+    <td><img src="images/2025ebook_11.jpg" width="980" height="158" /></td>
   </tr>
 
 
@@ -424,13 +446,13 @@ body,td,th { font-family:"微軟正黑體","Microsoft JhengHei","新細明體",P
     <!-- 重返神秘魔法國度 -->
 
   <tr>
-    <td><img src="images/2025ebook_11.jpg" width="980" height="658" /></td>
+    <td><img src="images/2025ebook_12.jpg" width="980" height="658" /></td>
   </tr>
 
    <!-- 探索自我與察覺的心路 -->
 
   <tr>
-    <td><img src="images/2025ebook_12.jpg" width="980" height="158" /></td>
+    <td><img src="images/2025ebook_13.jpg" width="980" height="158" /></td>
   </tr>
 
   <tr>
@@ -530,7 +552,7 @@ body,td,th { font-family:"微軟正黑體","Microsoft JhengHei","新細明體",P
  <!-- 打造通往成功未來的道路 -->
 
   <tr>
-    <td><img src="images/2025ebook_13.jpg" width="980" height="159" /></td>
+    <td><img src="images/2025ebook_14.jpg" width="980" height="159" /></td>
   </tr>
 
   <tr>
@@ -630,7 +652,7 @@ body,td,th { font-family:"微軟正黑體","Microsoft JhengHei","新細明體",P
  <!-- 重溫經典復刻魅力 -->
 
   <tr>
-    <td><img src="images/2025ebook_14.jpg" width="980" height="158" /></td>
+    <td><img src="images/2025ebook_15.jpg" width="980" height="158" /></td>
   </tr>
 
   <tr>
@@ -731,7 +753,7 @@ body,td,th { font-family:"微軟正黑體","Microsoft JhengHei","新細明體",P
  <!-- 通往圖像與想像構築的幻想世界 -->
 
   <tr>
-    <td><img src="images/2025ebook_15.jpg" width="980" height="161" /></td>
+    <td><img src="images/2025ebook_16.jpg" width="980" height="161" /></td>
   </tr>
 
   <tr>
@@ -831,7 +853,7 @@ body,td,th { font-family:"微軟正黑體","Microsoft JhengHei","新細明體",P
  <!-- 小書痴的新世代之路 -->
 
   <tr>
-    <td><img src="images/2025ebook_16.jpg" width="980" height="158" /></td>
+    <td><img src="images/2025ebook_17.jpg" width="980" height="158" /></td>
   </tr>
 
   <tr>
