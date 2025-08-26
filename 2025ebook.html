@@ -8,9 +8,8 @@
 map *:focus { outline:none; }
 img { border:0; }
 body {
-  background: url(images/bbg.jpg) repeat-y top center;
   margin: 0;
-  background-color: #acdce2;
+  background: #acdce2 url("images/bbg.jpg") repeat-y top center;
 }
 body, pre {
   font-family:"微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU";
@@ -887,8 +886,11 @@ body,td,th { font-family:"微軟正黑體","Microsoft JhengHei","新細明體",P
   </tr>
 
  <tr>
-    <td><img src="images/bbg.jpg" width="980" height="158" /></td>
-  </tr>
+  <td style="width:980px; height:158px; background-color:#acdce2;">
+    <img src="images/bbg.jpg" width="980" height="158" alt="背景圖片" style="display:block;">
+  </td>
+</tr>
+
 
 </table>
 </body>
